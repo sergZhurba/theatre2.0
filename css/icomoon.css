@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  line-height: 1;
+  color: #fff;
+  font-size: 2em;
+
+}
+
+.icon-facebook:before {
+  content: "\e900";
+  background-image: -webkit-linear-gradient(left, #b67ee1, #b06fc3); /* For Chrome and Safari */
+  background-image:    -moz-linear-gradient(left, #b67ee1, #b06fc3); /* For old Fx (3.6 to 15) */
+  background-image:     -ms-linear-gradient(left, #b67ee1, #b06fc3); /* For pre-releases of IE 10*/
+  background-image:      -o-linear-gradient(left, #b67ee1, #b06fc3); /* For old Opera (11.1 to 12.0) */
+  background-image:         linear-gradient(to right, #b67ee1, #b06fc3); /* Standard syntax; must be last */
+  -webkit-background-clip: text;
+  color:transparent;
+}
+.icon-instagram:before {
+  content: "\e901";
+  background-image: -webkit-linear-gradient(left, #da74cc, #d067af); /* For Chrome and Safari */
+  background-image:    -moz-linear-gradient(left, #da74cc, #d067af); /* For old Fx (3.6 to 15) */
+  background-image:     -ms-linear-gradient(left, #da74cc, #d067af); /* For pre-releases of IE 10*/
+  background-image:      -o-linear-gradient(left, #da74cc, #d067af); /* For old Opera (11.1 to 12.0) */
+  background-image:         linear-gradient(to right, #da74cc, #d067af); /* Standard syntax; must be last */
+  -webkit-background-clip: text;
+  color:transparent;
+}
+.icon-youtube:before {
+  content: "\e902";
+  background-image: -webkit-linear-gradient(left, #898afc, #8f88f9); /* For Chrome and Safari */
+  background-image:    -moz-linear-gradient(left, #898afc, #8f88f9); /* For old Fx (3.6 to 15) */
+  background-image:     -ms-linear-gradient(left, #898afc, #8f88f9); /* For pre-releases of IE 10*/
+  background-image:      -o-linear-gradient(left, #898afc, #8f88f9); /* For old Opera (11.1 to 12.0) */
+  background-image:         linear-gradient(to right, #898afc, #8f88f9); /* Standard syntax; must be last */
+  -webkit-background-clip: text;
+  color:transparent;
+}
